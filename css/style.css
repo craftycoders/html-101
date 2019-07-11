@@ -1,0 +1,72 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+.contact {
+  width: 33%;
+  text-align: center;
+  margin: auto;
+}
+
+.resume-pic {
+    clear:both;
+    width: 200px;
+    border-radius: 50%;
+    margin: 10px;
+    border: 2px solid black;
+}
+.logo {
+    width: 70px;
+}
+.projects, .skills {
+   padding-left: 20px;
+   width: 48%;
+   height: 400px;
+   margin-top: 60px;
+   text-align: center;
+}
+.projects{
+    float: left;
+    border-right: 2px solid black;
+}
+.skills{
+    float: left;
+}
+.divider{
+    clear: both;
+}
+.experience {
+    clear: both;
+    margin-top: 20px;
+    height:  300px;
+    border-top: 2px solid black;
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+.education {
+    clear: both;
+    margin-top: 20px;
+    height:  300px;
+    border-top: 2px solid black;
+    text-align: center;
+    
+
+}
+ul li {
+    text-align: left;
+}
+
+@media (max-device-width : 768px) { 
+    .projects {
+        width: 100%;
+        border-right: none;
+        padding-left: 0;
+        border-top: 2px solid black;
+    }
+    
+     .skills {
+        width: 100%;
+        border-top: 2px solid black;
+        padding-left: 0;
+    }
+ }
